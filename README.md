@@ -97,7 +97,7 @@ Bitrate 0.1Mbps, 15fps, video width 800px, video height 450px, with timestamp:
 tiny-rtsp-server.pl -vb 0.1m -r 15 -s 800x450 -ts
 ```
 
-Camera's built-in encoder (include Raspberry Pi's camera):
+Use camera's built-in encoder (include Raspberry Pi's camera):
 ```
 tiny-rtsp-server.pl -cc -264
 ```
@@ -107,7 +107,7 @@ Raspberry Pi, h264 with bcm2835 hardware encoder:
 tiny-rtsp-server.pl -vc h264_v4l2m2m -264
 ```
 
-*On the Raspberry Pi, it is lower latency to consider the camera's built-in codec than to use h264_v4l2m2.*
+*On the Raspberry Pi, it is lower latency to consider the camera's built-in codec than to use h264_v4l2m2m.*
 
 # Memo
 
