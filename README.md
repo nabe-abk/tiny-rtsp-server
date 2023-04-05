@@ -107,7 +107,7 @@ Raspberry Pi, h264 with bcm2835 hardware encoder:
 tiny-rtsp-server.pl -vc h264_v4l2m2m -264
 ```
 
-*[*] On the Raspberry Pi, it is lower latency to consider the camera's built-in codec than to use h264_v4l2m2.*
+*On the Raspberry Pi, it is lower latency to consider the camera's built-in codec than to use h264_v4l2m2.*
 
 # Memo
 
